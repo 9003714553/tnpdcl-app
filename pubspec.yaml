@@ -1,0 +1,53 @@
+name: tnpdcl_field_utility
+description: "TNPDCL (Tamil Nadu Power Distribution Corporation Limited) Field Officer Utility App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # State Management & Routing
+  get: ^4.6.6
+
+  # QR Code Scanning
+  mobile_scanner: ^5.1.1
+
+  # Typography & Google Fonts (Roboto & Noto Sans Tamil)
+  google_fonts: ^6.2.1
+
+  # Bluetooth Thermal Printing (58mm ESC/POS)
+  esc_pos_utils_plus: ^2.0.1
+  esc_pos_bluetooth: ^0.4.1
+  blue_thermal_printer: ^1.2.3
+
+  # Local Biometric Authentication
+  local_auth: ^2.2.0
+
+  # HTTP & Networking
+  http: ^1.2.1
+  connectivity_plus: ^5.0.2
+
+  # Local Storage for Offline Sync
+  shared_preferences: ^2.2.3
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+
+  # Icons & Internationalization
+  cupertino_icons: ^1.0.6
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
